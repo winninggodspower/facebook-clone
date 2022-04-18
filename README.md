@@ -3,8 +3,10 @@
 > backend functionality wiil be made later with _bootstrap_.
 
 ## Tools
-* boostrap
 * html
 * css
+* boostrap
+* javascript
+* jquery
 
 > visit site at [https://winninggodspower.github.io/facebook-clone/templates](https://winninggodspower.github.io/facebook-clone/templates)

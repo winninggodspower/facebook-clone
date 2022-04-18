@@ -1,0 +1,126 @@
+@import url('radius.css');
+
+*{
+    --secondary: #F0F2F5;
+}
+
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+
+.border-end-pill{
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+}
+
+.border-start-pill{
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+}
+
+.end-10{
+    right: 5%;
+}
+
+.start-10{
+    left: 7%;
+}
+
+
+.end-25{
+    right: 13%;
+}
+
+.navbar{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.nav-link{
+    padding: 7px;
+}
+
+.nav-hover:hover{
+    background-color: var(--secondary);
+}
+
+.ratio-16-9{
+    aspect-ratio: 9/16;
+    object-fit: cover;
+}
+
+.ratio-2-1{
+    aspect-ratio: 1/1.2 !important;
+}
+
+.object-fit{
+    object-fit: cover;
+}
+
+
+.uniform-ratio{
+    aspect-ratio: 1/1;
+}
+
+.icon-scale{
+    transform: scale(1.5);
+}
+.h-70{
+    height: 73%;
+}
+.mw-18{
+    max-width: 23% !important;
+    width: 17em !important;
+    margin-right: 2% !important;
+
+}
+
+.bottom-25{
+    bottom: 25%;
+}
+
+.w-increase{
+    width: 125% !important;
+}
+
+.secondary-bg-hover:hover{
+    background-color: var(--secondary) !important;
+}
+
+.secondary-bg-hover:hover .border-white{
+    border-color: var(--secondary) !important;
+}
+
+.decoration-none{
+    text-decoration: none;
+}
+
+.decoration-none:hover{
+    text-decoration: underline;
+}
+
+.placeinorder{
+    left: 85%;
+    top: 10%;
+}
+
+.place-below{
+    left: 87%;
+    top: 80%;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.active-background:hover{
+    background-color: #E4E6EB !important;
+}
+
+.btn-bg{
+    background-color: #E7F3FF !important;
+}
+
+.scale-down{
+    transform: scale(.6);
+}

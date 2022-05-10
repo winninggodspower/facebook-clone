@@ -124,3 +124,7 @@
 .scale-down{
     transform: scale(.6);
 }
+
+.card{
+    max-width: 100vw !important;
+}
